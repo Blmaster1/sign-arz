@@ -3,8 +3,8 @@ from selectolax.parser import HTMLParser
 
 # Define your send_to_telegram function
 def send_to_telegram(message):
-    apiToken = 'YOUR_TELEGRAM_BOT_TOKEN'
-    chatID = 'YOUR_CHAT_ID'
+    apiToken = '7615623909:AAExoQUjUQ36qyhRquGGZS0oN2NBg6eudAc'
+    chatID = '@Blockchain_masterBot'
     apiURL = f'https://api.telegram.org/bot{apiToken}/sendMessage'
 
     try:
